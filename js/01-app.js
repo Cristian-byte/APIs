@@ -9,7 +9,7 @@ notificarBtn.addEventListener('click', () => {
 });
 
 const verNotificacion = document.querySelector('#VerNotificacion');
-verNotificacion.addEventListener('click', () => {
+    VerNotificacion.addEventListener('click', () => {
     if(Notification.permission == 'granted') {
         const notificación = new Notification('Esta es la notificación', {
             icon: 'img/ccj.png'
